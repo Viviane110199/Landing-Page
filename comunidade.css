@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #181818 16.62%, #A9A9A9 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cabecalho-imagem {
+    padding-top: 30px;
+    height: 72px;
+}
+
+.cabecalho-escrito {
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    padding: 30px;
+}
+
+.conteudo {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-imagem {
+    width: 220px;
+    padding-top: 80px;
+}
+
+.conteudo-imagem:hover {
+    width: 220px;
+    transform: scale( 1.2 );;
+}
+
+.conteudo-escrito {
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-weight: 200;
+    font-size: 34px;
+    padding: 30px;
+    border-bottom:  0.4px solid #000000;
+}
+
+.rodape {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 120px;
+}
